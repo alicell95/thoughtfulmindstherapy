@@ -391,6 +391,7 @@ svg {
   .scallop {
     padding-top: 30px; /* Adjust top padding for smaller screens */
     padding-bottom: 100px; /* Adjust bottom padding for smaller screens */
+    width: 100vw;
   }
 
   .scallop p {
