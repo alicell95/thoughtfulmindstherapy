@@ -262,7 +262,7 @@ svg {
     position: fixed;
     padding: var(--size-500);
     inset: 0;
-    background: #00eab3; /* New background color */
+    background: #072cf1; /* New background color */
     z-index: 1000;
     text-align: center;
     justify-content: center;
