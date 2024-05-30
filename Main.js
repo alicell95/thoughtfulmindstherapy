@@ -1,18 +1,15 @@
 // script.js
-const navToggle = document.querySelector(".mobile-nav-toggle");
-const primaryNav = document.querySelector(".primary-navigation");
-const primaryHeader = document.querySelector(".primary-header");
+document.addEventListener("DOMContentLoaded", () => {
+  const navToggle = document.querySelector('.mobile-nav-toggle');
+  const primaryNav = document.querySelector('.primary-navigation');
+  const primaryHeader = document.querySelector('.primary-header');
 
-navToggle.addEventListener("click", () => {
-  const visibility = primaryNav.getAttribute("data-visible");
+  navToggle.addEventListener('click', () => {
+    const isVisible = primaryNav.getAttribute('data-visible') === "true";
 
-  if (visibility === "false") {
-    primaryNav.setAttribute("data-visible", true);
-    navToggle.setAttribute("aria-expanded", true);
-    primaryHeader.setAttribute("data-overlay", true);
-  } else {
-    primaryNav.setAttribute("data-visible", false);
-    navToggle.setAttribute("aria-expanded", false);
-    primaryHeader.removeAttribute("data-overlay");
-  }
+    primaryNav.setAttribute('data-visible', !isVisible);
+    navToggle.setAttribute('aria-expanded', !isVisible);
+    primaryHeader.setAttribute('data-overlay', !isVisible);
+  });
 });
+
