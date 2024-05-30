@@ -1,0 +1,110 @@
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.service-scallop {
+  text-align: center;
+  position: relative;
+  background: var(--clr-accent-400);
+  padding-top: 60px;
+  padding-bottom: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-scallop::before {
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  left: 0px;
+  width: 100%;
+  content: " ";
+  background: radial-gradient(
+    circle at 50% 0%,
+    #00eab3 25%,
+    #e0e1ff 26%,
+    #e0e1ff 40%
+  );
+  background-color: #00eab3;
+  background-size: 50px 100px;
+  height: 50px;
+  background-repeat: repeat-x;
+  background-position: -20px 0px;
+}
+
+.service-box {
+  width: 170px;
+  height: 170px;
+  margin: 0 40px 15px 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00eab3;
+  text-decoration: none;
+}
+.service-box {
+  text-align: center;
+  color: var(--clr-font-200);
+  font-family: var(--ff-body);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-semi-bold);
+}
+
+.service-box img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.service-scallop h3,
+.service-scallop p {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.TitleHeading {
+  display: block;
+  text-align: center;
+  line-height: var(--size-900);
+  padding-top: 50px;
+}
+
+.services .step-box-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.step-box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center; /* Center items horizontally */
+  box-sizing: border-box; /* Include padding and border in width and height */
+}
+
+.step-box h2 {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Ensure no padding */
+  justify-content: center;
+}
+
+.step-box h4 {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Ensure no padding */
+  margin-top: 10px; /* Adjust as needed to control gap */
+  font-family: var(--ff-subheading);
+  color: var(--clr-font-200);
+  font-weight: var(--fw-semi-bold);
+}
