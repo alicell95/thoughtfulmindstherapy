@@ -271,23 +271,18 @@ svg {
     align-items: center;
   }
 
-  .primary-navigation ul {
-    display: flex;
-    flex-direction: column;
-    gap: var(--size-400);
-  }
-
-  .primary-navigation[data-visible] {
+  .primary-navigation[data-visible="true"] {
     display: flex;
   }
 
-  .primary-header[data-overlay]::before {
+  /* Comment out or remove this block to eliminate the overlay */
+  /* .primary-header[data-overlay="true"]::before {
     content: "";
     position: fixed;
     inset: 0;
     background-image: linear-gradient(rgb(0 0 0 / 0), rgb(0 0 0 / 0.8));
     z-index: 500;
-  }
+  } */
 
   .nav-wrapper img {
     width: 20%;
@@ -329,6 +324,7 @@ svg {
     display: block;
   }
 }
+
 
 /*Scallop*/
 
