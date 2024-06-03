@@ -339,7 +339,6 @@ svg {
 
 
 /*Scallop*/
-
 .scallop {
   text-align: center;
   position: relative;
@@ -348,11 +347,13 @@ svg {
   padding-bottom: 200px;
   width: 100vw;
 }
+
 .scallop p {
   color: var(--clr-font-200);
   font-family: var(--ff-subheading);
   font-size: var(--fs-400);
 }
+
 .scallop::before {
   position: absolute;
   top: 0;
@@ -372,6 +373,7 @@ svg {
   background-repeat: repeat-x;
   background-position: -20px 0px;
 }
+
 .Aboutme-img {
   position: absolute;
   width: 300px;
@@ -381,17 +383,18 @@ svg {
   left: 30px;
   z-index: 4;
 }
+
 .scallop p {
   float: right;
   width: 70%;
   padding: 30px;
 }
 
-@media ((min-width: 300px < width < 760px)) {
+@media (max-width: 760px) {
   .scallop {
     padding-top: 30px; /* Adjust top padding for smaller screens */
     padding-bottom: 100px; /* Adjust bottom padding for smaller screens */
-    width: 100%;
+    width: 100%; /* Ensure it takes full width */
   }
 
   .scallop p {
@@ -409,6 +412,7 @@ svg {
     border-radius: 50%;
   }
 }
+
 
 /* Boxes*/
 .pagebreak {
