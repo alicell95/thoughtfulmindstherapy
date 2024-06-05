@@ -44,13 +44,13 @@
   --fs-button: var(--fs-400);
 }
 
-@media (min-width: 480px < width < 760px) {
+@media (max-width:760px) {
   :root {
     --fs-body: var(--fs-500);
-    --fs-primary-heading: var(--fs-800);
-    --fs-secondary-heading: var(--fs-600);
+    --fs-primary-heading: var(--fs-300);
+    --fs-secondary-heading: var(--fs-100);
 
-    --fs-nav: var(--fs-400);
+    --fs-nav: var(--fs-300);
   }
 }
 
