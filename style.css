@@ -180,7 +180,7 @@ svg {
   }
 
   .ff-heading {
-    font-size: var(--fs-500); /* Adjust font size for smaller screens */
+    font-size: var(--fs-400); /* Adjust font size for smaller screens */
   }
 
   .ff-subheading {
