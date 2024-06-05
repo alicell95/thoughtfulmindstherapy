@@ -172,20 +172,17 @@ svg {
   text-align: center;
 }
 
-@media ((min-width: 480px < width < 760px)) {
-  .TitleHeading {
-    font-size: var(--fs-200);
-    text-align: center;
-    line-height: var(--size-500);
-  }
+@media (max-width: 760px) {
+
 
   .ff-heading {
-    font-size: var(--fs-200); /* Adjust font size for smaller screens */
+  font-weight: 700;
+  font-family: "Grandstander", cursive;
+  color: var(--clr-font-400);
+  font-size: var(--fs-300);
+  text-align: center;
   }
 
-  .ff-subheading {
-    font-size: var(--fs-300); /* Adjust font size for smaller screens */
-  }
 }
 
 /* Navigations */
