@@ -18,9 +18,9 @@
   --ff-subheading: "Noto Sans", sans-serif;
   --ff-body: "Noto Sans", sans-serif;
 
-  --fs-300: 0.8rem;
-  --fs-400: 1rem;
-  --fs-500: 1.3rem;
+  --fs-300: 0.5rem;
+  --fs-400: 0.75rem;
+  --fs-500: 1rem;
   --fs-600: 2rem;
   --fs-700: 2.5rem;
   --fs-800: 3.5rem;
@@ -174,13 +174,13 @@ svg {
 
 @media ((min-width: 480px < width < 760px)) {
   .TitleHeading {
-    font-size: var(--fs-400);
+    font-size: var(--fs-200);
     text-align: center;
-    line-height: var(--size-900);
+    line-height: var(--size-500);
   }
 
   .ff-heading {
-    font-size: var(--fs-400); /* Adjust font size for smaller screens */
+    font-size: var(--fs-200); /* Adjust font size for smaller screens */
   }
 
   .ff-subheading {
