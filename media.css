@@ -275,12 +275,13 @@
     font-family: var(--ff-body);
   }
 
+@media (max-width: 760px) {
   .mySlidesContainer q {
-    font-family: var(--ff-body);
-    margin: 0;
-    white-space: normal;
-    overflow: visible;
+    font-size: 1em; /* Adjust font size for better fit */
+    padding: 10px; /* Add padding for better readability */
+    text-align: center; /* Center text if needed */
   }
+}
 }
 
 /*Service*/
