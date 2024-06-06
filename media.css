@@ -219,6 +219,19 @@
   }
 }
 
+/*Qualifications*/
+
+@media (max-width: 760px) {
+.qualifications .grid img{
+  display: flex;
+  flex-direction: column;
+  width: 70% 
+  height: 100px;
+  
+}
+}
+
+
 /*Button*/
 @media (max-width: 760px) {
   .button {
