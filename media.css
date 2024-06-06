@@ -97,12 +97,12 @@
     text-align: center;
   }
   .service p {
-  padding-top: 70px;
-  padding-bottom: 70px;
-  text-align: center;
-  font-family: var(--ff-body);
-  color: var(--clr-font-200);
-  width: 70%   
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: var(--ff-body);
+    color: var(--clr-font-200);
+    width: 70%; /* Added missing semicolon */
   }
 }
 
@@ -187,12 +187,10 @@
   .mobile-nav-toggle[aria-expanded="true"] .icon-close {
     display: block;
   }
-    .mobile-nav-toggle[aria-expanded="false"] .icon-close {
+  .mobile-nav-toggle[aria-expanded="false"] .icon-close {
     display: none;
   }
 }
-
-
 
 /*Scallop*/
 
@@ -225,6 +223,9 @@
   .grid {
     flex-direction: column;
     align-items: center; /* Center the images in the column */
+    width: 100%; /* Ensure the grid takes full width */
+    margin: 0; /* Remove any margin that could cause overflow */
+    padding: 0; /* Remove any padding that could cause overflow */
   }
 
   .grid img {
@@ -232,7 +233,6 @@
     height: auto; /* Let the height adjust automatically to maintain aspect ratio */
   }
 }
-
 
 /*Button*/
 @media (max-width: 760px) {
@@ -255,59 +255,58 @@
   .calendly-inline-widget {
     width: 100%;
   }
-    .calendly-inline-widget {
+  .calendly-inline-widget {
     width: 100%;
   }
 }
 
 /*Carosel*/
-@media (max-width: 760px)
-{
-.journey {
-  display: flex;
-  overflow: wrap;
-}
-.journey img {
-  width: 400px;
-  height: 200px;
-}
+@media (max-width: 760px) {
+  .journey {
+    display: flex;
+    overflow: wrap;
+  }
+  .journey img {
+    width: 400px;
+    height: 200px;
+  }
 
-.journey h2 {
-  font-family: var(--ff-body);
-}
+  .journey h2 {
+    font-family: var(--ff-body);
+  }
 
-.mySlidesContainer q {
+  .mySlidesContainer q {
     font-family: var(--ff-body);
     margin: 0;
     white-space: normal;
     overflow: visible;
-}
+  }
 }
 
 /*Service*/
 
 @media (max-width: 760px) {
-.services {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .services .step-box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+  }
+  .services p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 70%;
+    text-align: center;
+    font-family: var(--ff-body);
+    color: var(--clr-font-200);
+  }
 }
- .services .step-box-container {
-  display: flex;
-   flex-direction:column;
-  justify-content: center;
-  width: 70%;
-}
-.services p {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 70%;
-  text-align: center;
-  font-family: var(--ff-body);
-  color: var(--clr-font-200);
-}}
-
 
 /*Footer*/
 @media (max-width: 760px) {
@@ -324,3 +323,4 @@
     margin: 4px;
   }
 }
+
