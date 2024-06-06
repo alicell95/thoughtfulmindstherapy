@@ -299,7 +299,14 @@
   justify-content: center;
   width: 70%;
 }
-}
+.services p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 70%;
+  text-align: center;
+  font-family: var(--ff-body);
+  color: var(--clr-font-200);
+}}
 
 
 /*Footer*/
