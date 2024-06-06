@@ -143,7 +143,7 @@
   }
 
   .nav-list a {
-    color: inherit; /* Ensure links inherit the current color */
+    color: var(--clr-font-400); /* Ensure links inherit the current color */
     text-decoration: none; /* Remove underline for a cleaner look */
   }
 
@@ -186,6 +186,9 @@
 
   .mobile-nav-toggle[aria-expanded="true"] .icon-close {
     display: block;
+  }
+    .mobile-nav-toggle[aria-expanded="false"] .icon-close {
+    display: none;
   }
 }
 
