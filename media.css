@@ -1,6 +1,6 @@
 /*Root*/
 
-@media (min-width: 50em) {
+@media (max-width: 760px) {
   :root {
     --clr-primary-400: #00846e;
 
@@ -65,7 +65,7 @@
 }
 
 /*Font*/
-@media only screen and (max-width: 760px) {
+@media (max-width: 760px) {
   .ff-heading {
     font-size: var(--fs-700);
     font-family: var(--ff-heading);
@@ -99,7 +99,7 @@
 }
 
 /*Navigation*/
-@media (max-width: 50em) {
+@media (max-width: 760px) {
   .primary-navigation {
     display: none;
     position: fixed;
@@ -124,7 +124,7 @@
 
   .nav-wrapper img {
     width: 20%;
-    padding-left: var(--size-100);
+    padding-left: var(--size-400);
   }
 
   .nav-list {
@@ -197,7 +197,7 @@
 }
 
 /*Button*/
-@media (max-width: 50em) {
+@media (max-width: 760px) {
   .button {
     display: flex;
     align-items: center;
@@ -213,14 +213,14 @@
 }
 
 /*Calendy*/
-@media (max-width: 50em) {
+@media (max-width: 760px) {
   .calendly-inline-widget {
     width: 100%;
   }
 }
 
 /*Carosel*/
-@media (max-width: 50em) {
+@media (max-width: 760px) {
   .calendly-inline-widget {
     width: 100%;
   }
@@ -253,7 +253,7 @@
 
 
 /*Footer*/
-@media (max-width: 700px) {
+@media (max-width: 760px) {
   .footerNav ul {
     flex-direction: column;
   }
