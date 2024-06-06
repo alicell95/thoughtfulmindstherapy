@@ -222,11 +222,21 @@
 /*Qualifications*/
 
 @media (max-width: 760px) {
-.qualifications .grid img{
+  
+.qualifications {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: 100px;
+}
+  
+.grid img{
   display: flex;
   flex-direction: column;
   width: 70% 
   height: 100px;
+  align-items: center;
   
 }
 }
