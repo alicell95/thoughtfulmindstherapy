@@ -231,7 +231,7 @@ svg {
 .scallop p {
   color: var(--clr-font-200);
   font-family: var(--ff-subheading);
-  font-size: var(--fs-400);
+  font-size: var(--fs-700);
 }
 
 .scallop::before {
