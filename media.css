@@ -225,15 +225,14 @@
   .calendly-inline-widget {
     width: 100%;
   }
-}
-
-/*Carosel*/
-@media (max-width: 760px) {
-  .calendly-inline-widget {
+    .calendly-inline-widget {
     width: 100%;
   }
 }
 
+/*Carosel*/
+@media (max-width: 760px)
+{
 .journey {
   display: flex;
   overflow: wrap;
@@ -247,6 +246,13 @@
   font-family: var(--ff-body);
 }
 
+.mySlidesContainer q {
+    font-family: var(--ff-body);
+    margin: 0;
+    white-space: normal;
+    overflow: visible;
+}
+}
 
 /*Service*/
 
