@@ -263,6 +263,12 @@
   align-items: center;
   width: 100%;
 }
+ .services .step-box-container {
+  display: flex;
+   flex-direction:column;
+  justify-content: center;
+  width: 70%;
+}
 }
 
 
