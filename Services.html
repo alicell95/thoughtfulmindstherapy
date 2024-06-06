@@ -26,35 +26,43 @@
   </head>
 </html>
 
-<body class="body">
-  <header class="primary-header">
-    <div class="container">
-      <div class="nav-wrapper">
-        <a
-          href="index.html"
-          ><img
-            src= "Elements\Icon Logo (1).png"
-            alt="A monkey with their right hand on their forehead.  "
-        /></a>
+ <body class="body">
+    <header class="primary-header" data-overlay="false">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html">
+            <img
+              src="Elements/Icon Logo (1).png"
+              alt="A monkey with their right hand on their forehead."
+            />
+          </a>
 
-        <nav class="primary-navigation" id="primary-navigation">
-          <ul aria-label="Primary" role="list" class="nav-list">
-            <li><a href="AboutMe.html">About Me</a></li>
-            <li>
-              <a href="Services.html">Services</a>
-              <ul class="service-drop-down">
-                <li><a href="Walking&Talking.html">Walking & Talking</a></li>
-                <li><a href="Counciling.html"> Counciling </a></li>
-                <li><a href="ADHDCoaching.html"> ADHD Coaching </a></li>
-                <li><a href="WellnessCoaching.html"> Wellness Coaching </a></li>
-              </ul>
-            </li>
-            <li><a href="ContactMe.html">Contact Me</a></li>
-          </ul>
-        </nav>
+          <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <i class="fas fa-bars icon-open"></i>
+            <i class="fas fa-times icon-close"></i>
+          </button>
+
+          <nav class="primary-navigation" id="primary-navigation" data-visible="false">
+            <ul aria-label="Primary" role="list" class="nav-list">
+              <li><a href="AboutMe.html">About Me</a></li>
+              <li>
+                <a href="Services.html">Services</a>
+                <ul class="service-drop-down">
+                  <li><a href="Walking&Talking.html">Walking & Talking</a></li>
+                  <li><a href="Counciling.html"> Counciling </a></li>
+                  <li><a href="ADHDCoaching.html"> ADHD Coaching </a></li>
+                  <li><a href="WellnessCoaching.html"> Wellness Coaching </a></li>
+                </ul>
+              </li>
+              <li><a href="ContactMe.html">Contact Me</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
+
+    <script src="Main.js"></script>
+  </body>
 
   <main>
     <section>
