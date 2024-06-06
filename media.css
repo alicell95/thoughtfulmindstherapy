@@ -222,23 +222,15 @@
 /*Qualifications*/
 
 @media (max-width: 760px) {
-  
-.qualifications {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  width: 70%;
-  height: 100px;
-}
-  
-.grid img{
-  display: flex;
-  flex-direction: column;
-  width: 70% 
-  height: 100px;
-  align-items: center;
-  
-}
+  .grid {
+    flex-direction: column;
+    align-items: center; /* Center the images in the column */
+  }
+
+  .grid img {
+    max-width: 70%; /* Adjust the width as needed */
+    height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+  }
 }
 
 
