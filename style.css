@@ -46,6 +46,11 @@
 
 
 /* Box sizing rules */
+
+* {
+  outline: 1px solid red;
+}
+
 *,
 *::before,
 *::after {
@@ -54,7 +59,17 @@
 * {
   box-sizing: border-box;
 }
-/* Remove default margin */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Prevent horizontal overflow */
+body {
+  overflow-x: hidden;
+}
 * {
   margin: 0;
   padding: 0;
@@ -81,10 +96,6 @@ body {
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-}
-
-* {
-  outline: 1px solid red;
 }
 
 /* A elements that don't have a class get default styles */
