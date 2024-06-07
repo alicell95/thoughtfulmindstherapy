@@ -280,6 +280,8 @@
     font-size: 1em; /* Adjust font size for better fit */
     padding: 10px; /* Add padding for better readability */
     text-align: center; /* Center text if needed */
+    overflow-y: auto; /* Add vertical scroll bar */
+    max-height: 200px; /* Set a maximum height to trigger scrolling */
   }
 }
 }
