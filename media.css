@@ -315,11 +315,13 @@
 
 @media (max-width: 760px) {
   .service-scallop h3 {
-    display: block; /* Ensure it is displayed */
+    width: 100%; /* Ensure it takes the full width */
     text-align: center; /* Center the text */
+    margin: 0 auto; /* Center the element */
+    display: block; /* Ensure it's displayed */
+    color: black; /* Ensure text color is visible */
   }
 }
-
 /*Footer*/
 @media (max-width: 760px) {
   .footerNav ul {
