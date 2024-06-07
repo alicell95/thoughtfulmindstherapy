@@ -49,8 +49,6 @@ main {
   background-position: -20px 0px;
 }
 .service-scallop h3 {
-  border: 1px solid red; /* Debug border */
-  background-color: rgba(255, 0, 0, 0.1); /* Debug background */
   z-index: 1000; /* Ensure it's on top */
   display: block; /* Ensure it's displayed */
 }
