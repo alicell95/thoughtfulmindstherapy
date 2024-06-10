@@ -479,7 +479,7 @@ svg {
   height: 800px;
 }
 
-
+//About Me//
 
 .journey {
   display: flex;
@@ -488,6 +488,7 @@ svg {
 .journey img {
   width: 400px;
   height: 200px;
+  border-radius:50%;
 }
 
 .journey h2 {
