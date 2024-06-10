@@ -156,8 +156,13 @@ textarea {
   #container {
     margin: auto;
   }
-  #contact_form:{
-    width: 70%;
+.contact_form {
+    border: solid 5px var(--clr-font-400);
+    border-radius: 60px;
+    max-width: 80%;
+    margin: 30px auto;
+    position: relative;
+    background-color: var(--clr-font-400);
 }
   h1 {
     font-size: 26px;
