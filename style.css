@@ -485,6 +485,7 @@ svg {
   display: flex;
   flex-direction: columns;
   overflow: wrap;
+  margin-top: var(--size-600: 2rem;);
 }
 .journey h2 {
   font-family: var(--ff-heading);
