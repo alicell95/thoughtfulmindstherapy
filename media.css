@@ -317,6 +317,8 @@
   .service-scallop h3 {
     width: 100%; /* Ensure it takes the full width */
     text-align: center; /* Center the text */
+    padding-top: 10px;
+    font-style:bold;
     margin: 0 auto; /* Center the element */
     display: block; /* Ensure it's displayed */
     font-family: var(--ff-subheading);
