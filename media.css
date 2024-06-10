@@ -198,7 +198,7 @@
 @media (max-width: 760px) {
   .scallop {
     padding-top: 30px; /* Adjust top padding for smaller screens */
-    padding-bottom: 100px; /* Adjust bottom padding for smaller screens */
+    padding-bottom: 60px; /* Adjust bottom padding for smaller screens */
     width: 100%; /* Ensure it takes full width */
   }
 
@@ -232,6 +232,7 @@
   .grid img {
     max-width: 70%; /* Adjust the width as needed */
     height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+    padding-bottom: 15px;
   }
 }
 
