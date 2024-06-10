@@ -481,9 +481,13 @@ svg {
 
 //About Me//
 
+.aboutme-content{
+  display:flex;
+  flex-direction: column;
+}
 .journey {
   display: flex;
-  flex-direction: columns;
+  flex-direction: row;
   overflow: wrap;
   margin-top:var(--size-600);
 }
