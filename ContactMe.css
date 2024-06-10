@@ -155,8 +155,9 @@ textarea {
 @media screen and (max-width: 760px) {
   #container {
     margin: auto;
-    width: 100%;
   }
+  #contact_form:{
+    width: 70%;
 }
   h1 {
     font-size: 26px;
