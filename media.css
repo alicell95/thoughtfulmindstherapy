@@ -305,13 +305,35 @@
     width: 100%; /* Ensure full width */
   }
   .services p {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     width: 100%; /* Ensure full width */
     text-align: center;
     font-family: var(--ff-body);
     color: var(--clr-font-200);
   }
+  .step-box h2 {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Ensure no padding */
+  justify-content: center;
+}
+
+.step-box h4 {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Ensure no padding */
+  margin-top: 10px; /* Adjust as needed to control gap */
+  font-family: var(--ff-subheading);
+  color: var(--clr-font-200);
+  font-weight: var(--fw-semi-bold);
+}
+
+.step-box p {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Ensure no padding */
+  margin-top: 10px; /* Adjust as needed to control gap */
+  font-family: var(--ff-body);
+}
+
 }
 
 @media (max-width: 760px) {
@@ -319,7 +341,7 @@
     width: 100%; /* Ensure it takes the full width */
     text-align: center; /* Center the text */
     padding-top: 20px;
-    font-style: bold;
+    font-weight: var(--fw-semi-bold);
     margin: 0 auto; /* Center the element */
     display: block; /* Ensure it's displayed */
     font-family: var(--ff-subheading);
