@@ -285,8 +285,17 @@
     overflow-y: auto; /* Add vertical scroll bar */
     max-height: 200px; /* Set a maximum height to trigger scrolling */
   }
+  .slideshow-container {
+    position: relative;
+    width: 60rem;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .mySlides{
+    width: 100%
+  }  
   .mySlidesContainer{
-    width: 70%
+    width: 100%
 }
 }
 
