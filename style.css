@@ -485,10 +485,15 @@ svg {
   display: flex;
   flex-direction: columns;
   overflow: wrap;
-  margin-top: var(--size-600: 2rem;);
+  margin-top: var(--size-600: 2rem);
 }
 .journey h2 {
   font-family: var(--ff-heading);
+}
+.journey p{
+  font-family:var(--ff-body);
+  width: 70%;
+  
 }
 .journey img {
   width: 400px;
