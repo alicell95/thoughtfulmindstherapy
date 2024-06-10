@@ -319,7 +319,7 @@
     text-align: center; /* Center the text */
     margin: 0 auto; /* Center the element */
     display: block; /* Ensure it's displayed */
-    color: black; /* Ensure text color is visible */
+    font-family: var(--ff-subheading);
   }
 }
 /*Footer*/
