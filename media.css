@@ -284,6 +284,7 @@
     text-align: center; /* Center text if needed */
     overflow-y: auto; /* Add vertical scroll bar */
     max-height: 200px; /* Set a maximum height to trigger scrolling */
+    width: 60%;
   }
 }
 }
