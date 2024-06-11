@@ -496,16 +496,19 @@ svg {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 
 .journey h2 {
   text-align: center;
   margin: 30px;
+  text-align: center;
 }
 
 .journey p {
   margin-bottom: 30px;
   width: 60%;
+  text-align: center;
 }
 
 .journey img {
