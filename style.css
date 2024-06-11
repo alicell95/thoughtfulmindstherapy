@@ -483,10 +483,9 @@ svg {
 
 .aboutme-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
-  overflow: auto;
 }
 
 .TitleHeading h1 {
@@ -494,8 +493,9 @@ svg {
 }
 
 .journey {
-  width: 80%;
-  margin: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
 }
 
 .journey h2 {
