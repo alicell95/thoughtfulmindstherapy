@@ -486,7 +486,8 @@ svg {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  width: 80%;
+  width: calc(100% - 60px); /* Adjust width to account for left and right padding */
+  padding: 0 30px; /* Add 30px padding on left and right */
 }
 
 .TitleHeading h1 {
@@ -500,7 +501,6 @@ svg {
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
-  margin-left:30px;
 }
 
 .journey h2 {
@@ -532,7 +532,6 @@ svg {
 .journey:first-of-type p {
   margin-right: 30px;
   text-align: left;
-
 }
 
 .journey:last-of-type {
@@ -548,6 +547,7 @@ svg {
   margin-right: 30px;
   text-align: left;
 }
+
 
 
 
