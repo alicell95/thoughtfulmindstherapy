@@ -512,37 +512,6 @@ svg {
   border-radius: 50%;
 }
 
-.journey:first-of-type {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
-.journey:first-of-type img {
-  order: 1;
-  margin-right: 30px;
-}
-
-.journey:first-of-type p {
-  order: 2;
-  flex: 1;
-}
-
-.journey:last-of-type {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-
-.journey:last-of-type img {
-  order: 1;
-  margin-left: 30px;
-}
-
-.journey:last-of-type p {
-  order: 2;
-  flex: 1;
-}
 
 
