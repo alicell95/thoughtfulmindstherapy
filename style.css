@@ -486,6 +486,7 @@ svg {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  width: 80%;
 }
 
 .TitleHeading h1 {
@@ -494,31 +495,57 @@ svg {
 }
 
 .journey {
-  margin: 0 auto;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .journey h2 {
   text-align: center;
   margin-bottom: 30px;
-  text-align: center;
 }
 
 .journey p {
-  margin-bottom: 50px;
-  width: 60%;
+  width: 100%;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .journey img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin: 0 auto;
 }
 
+.journey:first-of-type {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.journey:first-of-type img {
+  margin-right: 30px;
+}
+
+.journey:first-of-type p {
+  margin-left: 30px;
+  text-align: left;
+}
+
+.journey:last-of-type {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.journey:last-of-type img {
+  margin-left: 30px;
+}
+
+.journey:last-of-type p {
+  margin-right: 30px;
+  text-align: left;
+}
 
 
 
