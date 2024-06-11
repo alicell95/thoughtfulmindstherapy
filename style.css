@@ -531,7 +531,7 @@ svg {
 .journey:first-of-type p {
   margin-left: 30px;
   text-align: left;
-  padding-right: 30px;
+  padding-left: 80px;
 }
 
 .journey:last-of-type {
