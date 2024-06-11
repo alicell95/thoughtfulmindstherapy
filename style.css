@@ -494,12 +494,12 @@ svg {
 
 .journey {
   width: 80%;
-  margin-bottom: 30px;
+  margin: 30px;
 }
 
 .journey h2 {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 30px;
 }
 
 .journey p {
@@ -510,6 +510,7 @@ svg {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  margin: 30px;
 }
 
 
