@@ -284,11 +284,12 @@
     text-align: center; /* Center text if needed */
     overflow-y: auto; /* Add vertical scroll bar */
     max-height: 200px; /* Set a maximum height to trigger scrolling */
+    width:100%;
   }
   .slideshow-container {
     position: relative;
     width: 60rem;
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
   }
   .mySlides{
