@@ -521,14 +521,29 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-bottom: 30px;
   box-sizing: border-box;
+}
+
+.journey-content.p-left img {
+  margin-left: 30px;
+}
+
+.journey-content.p-left p {
+  margin-right: 30px;
+}
+
+.journey-content.p-right img {
+  margin-right: 30px;
+}
+
+.journey-content.p-right p {
+  margin-left: 30px;
 }
 
 .journey-content p {
   max-width: 60%;
   text-align: center;
-  margin: 0 30px;
+  margin: 0;
 }
 
 .journey-content img {
@@ -545,3 +560,4 @@ body {
 .journey-content.row-reverse {
   flex-direction: row-reverse;
 }
+
