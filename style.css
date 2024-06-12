@@ -480,11 +480,21 @@ svg {
 }
 
 //About Me//
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .aboutme-content {
+  width: calc(100% - 60px); /* Ensures a 30px gap on both sides */
+  margin: 0 auto; /* Center the content within the page */
+  padding: 0 30px; /* Add 30px padding on left and right */
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 30px; /* Add 30px padding on left and right */
 }
 
 .TitleHeading h1 {
@@ -493,11 +503,12 @@ svg {
 }
 
 .journey {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  width: 100%;
+  box-sizing: border-box;
 }
 
 .journey h2 {
@@ -506,56 +517,25 @@ svg {
 }
 
 .journey p {
-  width: 100%;
-  max-width: calc(100% - 60px); /* Ensure paragraph respects the padding */
+  max-width: 60%;
   text-align: center;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 30px;
 }
 
 .journey img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
 .journey:first-of-type {
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: calc(100% - 60px); /* Ensure section respects the padding */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.journey:first-of-type img {
-  margin-right: 30px;
-}
-
-.journey:first-of-type p {
-  margin-left: 30px;
-  text-align: left;
-  flex: 1;
 }
 
 .journey:last-of-type {
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: calc(100% - 60px); /* Ensure section respects the padding */
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.journey:last-of-type img {
-  margin-left: 30px;
-}
-
-.journey:last-of-type p {
-  margin-right: 30px;
-  text-align: left;
-  flex: 1;
-}
