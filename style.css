@@ -488,6 +488,7 @@ svg {
   margin: 0 auto;
   padding: 0 30px; /* Add 30px padding on left and right */
   box-sizing: border-box; /* Ensure padding is included in the width */
+  width: 100%;
 }
 
 .TitleHeading h1 {
@@ -501,6 +502,7 @@ svg {
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
+  box-sizing: border-box;
 }
 
 .journey h2 {
@@ -509,9 +511,10 @@ svg {
 }
 
 .journey p {
-  width: 100%;
+  width: calc(100% - 60px); /* Ensure paragraph respects the padding */
   text-align: center;
   margin-bottom: 30px;
+  box-sizing: border-box;
 }
 
 .journey img {
@@ -523,7 +526,7 @@ svg {
 .journey:first-of-type {
   flex-direction: row;
   justify-content: center;
-  width: calc(100% - 60px); /* Adjust width to account for left and right padding */
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -532,15 +535,15 @@ svg {
 }
 
 .journey:first-of-type p {
-  margin-right: 30px;
+  margin-left: 30px;
   text-align: left;
-  flex: 1; /* Ensure the paragraph takes up available space */
+  flex: 1;
 }
 
 .journey:last-of-type {
   flex-direction: row;
   justify-content: center;
-  width: calc(100% - 60px); /* Adjust width to account for left and right padding */
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -551,8 +554,7 @@ svg {
 .journey:last-of-type p {
   margin-right: 30px;
   text-align: left;
-  flex: 1; /* Ensure the paragraph takes up available space */
+  flex: 1;
 }
-
 
 
