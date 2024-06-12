@@ -505,7 +505,7 @@ body {
 .journey {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
   box-sizing: border-box;
@@ -516,26 +516,32 @@ body {
   margin-bottom: 30px;
 }
 
-.journey p {
+.journey-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.journey-content p {
   max-width: 60%;
   text-align: center;
   margin: 0 30px;
 }
 
-.journey img {
+.journey-content img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
-.journey:first-of-type {
+.journey-content.row {
   flex-direction: row;
-  justify-content: space-between;
 }
 
-.journey:last-of-type {
+.journey-content.row-reverse {
   flex-direction: row-reverse;
-  justify-content: space-between;
 }
-
