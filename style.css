@@ -550,14 +550,11 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
 .journey-content.row {
   flex-direction: row;
 }
 
-.journey-content.row-reverse {
-  flex-direction: row-reverse;
-}
+
 
