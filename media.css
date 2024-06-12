@@ -360,6 +360,82 @@
     font-family: var(--ff-subheading);
   }
 }
+
+//*About Me*// 
+
+.aboutme-content {
+  width: calc(100% - 60px); /* Ensures a 30px gap on both sides */
+  margin: 0 auto; /* Center the content within the page */
+  padding: 0 30px; /* Add 30px padding on left and right */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TitleHeading h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.journey {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.journey h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.journey-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.journey-content.p-left img {
+  margin-left: 30px;
+}
+
+.journey-content.p-left p {
+  margin-right: 30px;
+}
+
+.journey-content.p-right img {
+  margin-right: 30px;
+}
+
+.journey-content.p-right p {
+  margin-left: 30px;
+}
+
+.journey-content p {
+  max-width: 60%;
+  text-align: center;
+  margin: 0;
+}
+
+.journey-content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.journey-content.row {
+  flex-direction: row;
+}
+
+
+
+
+
 /*Footer*/
 @media (max-width: 760px) {
   .footerNav ul {
