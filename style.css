@@ -480,15 +480,11 @@ svg {
 }
 
 //About Me//
-
 .aboutme-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
   padding: 0 30px; /* Add 30px padding on left and right */
-  box-sizing: border-box; /* Ensure padding is included in the width */
-  width: 100%;
 }
 
 .TitleHeading h1 {
@@ -497,12 +493,11 @@ svg {
 }
 
 .journey {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
-  box-sizing: border-box;
+  width: 100%;
 }
 
 .journey h2 {
@@ -511,10 +506,12 @@ svg {
 }
 
 .journey p {
-  width: calc(100% - 60px); /* Ensure paragraph respects the padding */
+  width: 100%;
+  max-width: calc(100% - 60px); /* Ensure paragraph respects the padding */
   text-align: center;
   margin-bottom: 30px;
-  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .journey img {
@@ -525,9 +522,12 @@ svg {
 
 .journey:first-of-type {
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  box-sizing: border-box;
+  max-width: calc(100% - 60px); /* Ensure section respects the padding */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .journey:first-of-type img {
@@ -542,9 +542,12 @@ svg {
 
 .journey:last-of-type {
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  box-sizing: border-box;
+  max-width: calc(100% - 60px); /* Ensure section respects the padding */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .journey:last-of-type img {
@@ -556,5 +559,3 @@ svg {
   text-align: left;
   flex: 1;
 }
-
-
