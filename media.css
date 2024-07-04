@@ -244,7 +244,6 @@
   .grid img {
     max-width: 70%; /* Adjust the width as needed */
     height: auto; /* Let the height adjust automatically to maintain aspect ratio */
-    padding-bottom: 10px;
   }
 }
 
