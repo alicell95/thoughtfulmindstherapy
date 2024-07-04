@@ -111,10 +111,10 @@ main {
 }
 
 .step-box h2 {
-  margin: 0; /* Remove default margin */
+  margin-top: 15px; 
   padding: 0; /* Ensure no padding */
   justify-content: center;
-  font-size: var(--fs-600);
+  font-size: var(--fs-500);
 }
 
 .step-box h4 {
