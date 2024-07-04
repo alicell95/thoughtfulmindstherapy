@@ -91,7 +91,7 @@ main {
   margin-bottom: 20px;
   font-family: var(--ff-subheading);
   font-size: var(--size-600);
-  color: var(--clr-font-200);
+  color: var(--clr-primary-400);
   font-weight: var(--fw-bold);
 }
 
