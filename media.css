@@ -407,7 +407,7 @@ font-weight: var(--fw-semi-bold);
 
 .journey-content.p-left img {
   margin-left: 15px;
-  margin-right: 20px
+  margin-right: 30px
 }
 
 .journey-content.p-left p {
@@ -417,7 +417,7 @@ font-weight: var(--fw-semi-bold);
 
 .journey-content.p-right img {
   margin-right: 15px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .journey-content.p-right p {
@@ -425,14 +425,14 @@ font-weight: var(--fw-semi-bold);
 }
 
 .journey-content p {
-  max-width: 85%;
+  max-width: 100%;
   text-align: center;
   margin: 0;
 }
 
 .journey-content img {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 
