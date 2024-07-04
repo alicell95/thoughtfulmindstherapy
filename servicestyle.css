@@ -114,10 +114,13 @@ main {
 }
 
 .step-box h2 {
-  margin-top: 15px; 
+  margin-top: 30px; 
   padding: 0; /* Ensure no padding */
   justify-content: center;
-  font-size: var(--fs-500);
+  font-size: var(--fs-600);
+  font-family: "Noto Sans", sans-serif;
+  color: var(--clr-primary-400);
+  
 }
 
 .step-box h4 {
