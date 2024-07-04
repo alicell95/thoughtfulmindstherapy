@@ -108,6 +108,7 @@
 }
 
 /* Navigation */
+/* Navigation */
 @media (max-width: 760px) {
   .primary-navigation {
     display: none;
@@ -141,6 +142,10 @@
     gap: var(--size-400);
     text-align: center;
     font-weight: var(--fw-bold);
+  }
+
+  .nav-list li {
+    margin-bottom: 15px; /* Add 15px of space between each link */
   }
 
   .nav-list a {
@@ -188,6 +193,7 @@
   .mobile-nav-toggle[aria-expanded="true"] .icon-close {
     display: block;
   }
+  
   .mobile-nav-toggle[aria-expanded="false"] .icon-close {
     display: none;
   }
