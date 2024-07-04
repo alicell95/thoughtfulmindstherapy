@@ -140,7 +140,7 @@ svg {
 }
 
 .ff-subheading-300 {
-  font-weight: 800;
+  font-weight: 600;
   font-family: "Noto Sans", sans-serif;
   color: var(--clr-primary-400);
   font-size: var(--fs-500);
