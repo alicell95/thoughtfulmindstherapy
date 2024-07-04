@@ -341,6 +341,14 @@
     width: 100%; /* Ensure full width */
     text-align: center; /* Ensure text is centered */
   }
+  .services h3{
+    text-align: center;
+    color: var(--clr-font-200);
+    font-family: var(--ff-body);
+    font-size: var(--fs-550);
+    font-weight: var(--fw-semi-bold);
+  }
+  
   .services .step-box-container {
     display: flex;
     flex-direction: column;
