@@ -114,6 +114,7 @@ main {
   margin: 0; /* Remove default margin */
   padding: 0; /* Ensure no padding */
   justify-content: center;
+  font-size: var(--fs-600);
 }
 
 .step-box h4 {
