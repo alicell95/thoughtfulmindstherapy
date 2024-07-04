@@ -21,6 +21,7 @@
   --fs-300: 0.5rem;
   --fs-400: 0.75rem;
   --fs-500: 1rem;
+  --fs-550: 1.5rem;
   --fs-600: 2rem;
   --fs-700: 2.5rem;
   --fs-800: 3.5rem;
@@ -41,7 +42,7 @@
   --fs-primary-heading: var(--fs-900);
   --fs-secondary-heading: var(--fs-700);
   --fs-nav: var(--fs-600);
-  --fs-button: var(--fs-600);
+  --fs-button: var(--fs-550);
 }
 
 
@@ -330,7 +331,7 @@ svg {
   text-align: center;
   color: var(--clr-font-200);
   font-family: var(--ff-body);
-  font-size: var(--fs-700);
+  font-size: var(--fs-550);
   font-weight: var(--fw-semi-bold);
 }
 
