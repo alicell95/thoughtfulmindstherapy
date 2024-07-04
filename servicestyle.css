@@ -51,8 +51,8 @@ main {
 .service-scallop h3 {
   z-index: 1000; /* Ensure it's on top */
   display: block; /* Ensure it's displayed */
-  font-family: var(--ff-body);
-  font-size: var(--fs-550);
+  font-family: var(--ff-subheading);
+  font-size: var(--fs-600);
   font-weight: var(--fw-semi-bold);
 }
 .service-scallop h3,
@@ -89,7 +89,7 @@ main {
   font-family: var(--ff-subheading);
   font-size: var(--size-600);
   color: var(--clr-font-200);
-  font-weight: var(--fw-semi-bold);
+  font-weight: var(--fw-bold);
 }
 
 .services .step-box-container {
