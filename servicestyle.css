@@ -51,10 +51,13 @@ main {
 .service-scallop h3 {
   z-index: 1000; /* Ensure it's on top */
   display: block; /* Ensure it's displayed */
-  font-family: var(--ff-subheading);
-  font-size: var(--fs-600);
+   text-align: center;
+  color: var(--clr-font-200);
+  font-family: var(--ff-body);
+  font-size: var(--fs-550);
   font-weight: var(--fw-semi-bold);
 }
+
 .service-scallop h3,
 .service-scallop p {
   width: 70%;
