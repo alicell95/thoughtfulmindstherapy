@@ -404,19 +404,19 @@
 }
 
 .journey-content.p-left img {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .journey-content.p-left p {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .journey-content.p-right img {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .journey-content.p-right p {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .journey-content p {
@@ -426,8 +426,8 @@
 }
 
 .journey-content img {
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
 }
 
