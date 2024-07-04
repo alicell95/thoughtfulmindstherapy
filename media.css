@@ -310,6 +310,19 @@
 /*Service*/
 
 @media (max-width: 760px) {
+
+  .box {
+  width: 250px;
+  height: 170px;
+  margin: 0 40px 15px 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e1ff;
+  text-decoration: none;
+}
   .services {
     display: flex;
     flex-direction: column;
