@@ -56,11 +56,6 @@
   font-size: var(--fs-400);
   font-weight: var(--fw-semi-bold);
 }
-.service-scallop h3{
-  font-family: var(--ff-subheading);
-  font-size: var(--fs-600);
-  font-weight: var(--fw-semi-bold);
-}
 
 .service-box img {
   max-width: 60%;
@@ -105,7 +100,7 @@
   justify-content: center;
   font-family: "Noto Sans", sans-serif;
   font-size: var(--fs-600);
-  color: var(--clr-primary-400);
+  color: var(--clr-font-400);
 }
 
 .step-box h4 {
