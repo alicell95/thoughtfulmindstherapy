@@ -91,7 +91,7 @@ main {
   margin-bottom: 20px;
   font-family: var(--ff-subheading);
   font-size: var(--size-600);
-  color: var(--clr-primary-400);
+  color: var(--clr-font-200);
   font-weight: var(--fw-bold);
 }
 
@@ -119,7 +119,7 @@ main {
   justify-content: center;
   font-size: var(--fs-600);
   font-family: "Noto Sans", sans-serif;
-  color: var(--clr-primary-400);
+  color: var(--clr-font-200);
   
 }
 
