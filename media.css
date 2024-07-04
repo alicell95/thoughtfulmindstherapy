@@ -369,7 +369,7 @@
 .aboutme-content {
   width: calc(100% - 60px); /* Ensures a 30px gap on both sides */
   margin: 0 auto; /* Center the content within the page */
-  padding: 0 30px; /* Add 30px padding on left and right */
+  padding: 0 15px; /* Add 30px padding on left and right */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -393,6 +393,8 @@
 .journey h2 {
   text-align: center;
   margin-bottom: 30px;
+font-weight: var(--fw-semi-bold);
+  
 }
 
 .journey-content {
@@ -404,15 +406,18 @@
 }
 
 .journey-content.p-left img {
-  margin-left: 20px;
+  margin-left: 15px;
+  margin-right: 20px
 }
 
 .journey-content.p-left p {
   margin-right: 20px;
+
 }
 
 .journey-content.p-right img {
-  margin-right: 20px;
+  margin-right: 15px;
+  margin-left: 20px;
 }
 
 .journey-content.p-right p {
