@@ -200,12 +200,15 @@
     padding-top: 30px; /* Adjust top padding for smaller screens */
     padding-bottom: 60px; /* Adjust bottom padding for smaller screens */
     width: 100%; /* Ensure it takes full width */
+    flex-direction: column;
+    align-items: center;
   }
 
   .scallop p {
     float: none; /* Reset float for smaller screens */
     width: 100%; /* Make the paragraph full width for smaller screens */
     padding: 20px; /* Adjust padding for smaller screens */
+    text-align: center;
   }
 
   .Aboutme-img {
