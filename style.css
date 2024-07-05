@@ -231,6 +231,29 @@ svg {
 
 .service-drop-down a:hover {}
 
+.primary-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.service-drop-down {
+  display: none;
+  position: absolute;
+  background-color: #00eab3;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.service:hover .service-drop-down {
+  display: block;
+}
 
 
 /*Scallop*/
