@@ -341,6 +341,7 @@ svg {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   margin: auto;
   margin-top: 25px;
   margin-bottom: 30px;
