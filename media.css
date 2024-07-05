@@ -306,7 +306,7 @@
   }
   .slideshow-container {
     position: relative;
-    width: 60rem;
+    width: 80rem;
     max-width: 100%;
     margin: 0 auto;
   }
@@ -359,7 +359,7 @@
   .services p {
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 100%; /* Ensure full width */
+    width: 80%; /* Ensure full width */
     text-align: center;
     font-family: var(--ff-body);
     color: var(--clr-font-200);
