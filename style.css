@@ -217,6 +217,7 @@ svg {
     z-index: 1; /* Ensure dropdown appears above other content */
     list-style: none; /* Remove bullets */
     margin: 0; /* Remove default margin */
+    margin-right: 10px;
     padding: 0; /* Remove default padding */
 }
 
