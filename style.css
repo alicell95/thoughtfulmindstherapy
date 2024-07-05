@@ -166,70 +166,80 @@ svg {
 /* Navigations */
 
 .primary-header {
-  background-color: #e0e1ff;
-  padding-top: var(--size-300);
-  padding-bottom: var(--size-800);
+    background-color: #e0e1ff;
+    padding-top: var(--size-300);
+    padding-bottom: var(--size-800);
 }
 
 .nav-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-wrapper img {
-  width: 10%;
-  padding-left: var(--size-500);
-  position: absolute;
-  top: 0;
-  left: 0;
+    width: 10%;
+    padding-left: var(--size-500);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .mobile-nav-toggle {
-  display: none;
+    display: none;
 }
 
 .nav-list {
-  font-size: var(--fs-500);
-}
-
-.nav-list {
-  display: flex;
-  gap: clamp(var(--size-400), 5vw, var(--size-200));
-  font-weight: var(--fw-semi-bold);
-  padding: var(--size-300);
-  font-family: var(--ff-subheading);
+    font-size: var(--fs-500);
+    display: flex;
+    gap: clamp(var(--size-400), 5vw, var(--size-200));
+    font-weight: var(--fw-semi-bold);
+    padding: var(--size-300);
+    font-family: var(--ff-subheading);
 }
 
 .nav-list a {
-  text-decoration: none;
-  color: var(--clr-font-200);
+    text-decoration: none;
+    color: var(--clr-font-200);
 }
 
 .nav-list a:hover,
 .nav-list a:focus {
-  color: var(--clr-accent-400);
+    color: var(--clr-accent-400);
 }
 
 .service-drop-down {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  border-radius: 5%;
-  padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 5%;
+    padding: 10px;
+    z-index: 1; /* Ensure dropdown appears above other content */
+    list-style: none; /* Remove bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
-.nav-list > li:hover .service-drop-down {
-  display: block;
+.services-li:hover .service-drop-down {
+    display: block;
 }
 
 .service-drop-down li {
-  display: block;
+    display: block;
 }
 
-.service-drop-down a {}
+.service-drop-down a {
+    display: block; /* Ensure links take up full width */
+    padding: 10px;
+    color: var(--clr-font-200); /* Same color as main links */
+    text-decoration: none;
+}
 
-.service-drop-down a:hover {}
+.service-drop-down a:hover,
+.service-drop-down a:focus {
+    color: var(--clr-accent-400); /* Same hover color as main links */
+}
+
 
 
 /*Scallop*/
