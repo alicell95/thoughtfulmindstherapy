@@ -49,7 +49,7 @@ main {
   background-position: -20px 0px;
 }
 .service-scallop h3 {
-  z-index: 1000; /* Ensure it's on top */
+  z-index: 2; /* Ensure it's on top */
   display: block; /* Ensure it's displayed */
    text-align: center;
   color: var(--clr-font-200);
