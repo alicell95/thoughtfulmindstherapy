@@ -1,15 +1,4 @@
 
-.service-scallop {
-display: flex;
-  flex-direction: row; /* Ensure children are stacked vertically */
-  align-items: center; /* Center align children horizontally */
-  justify-content: center;
-  width: 100%;
-  text-align: center;
-  margin-top: 20px;
-
-}
-
 
 .services {
   display: flex;
