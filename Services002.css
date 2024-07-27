@@ -1,6 +1,6 @@
 .services {
   display: flex;
-  flex-direction: column; /* Ensure children are stacked vertically */
+  flex-direction: row; /* Ensure children are stacked vertically */
   align-items: center; /* Center align children horizontally */
   justify-content: center;
   width: 100%;
