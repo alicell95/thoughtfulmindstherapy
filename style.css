@@ -377,6 +377,12 @@ svg {
 }
 
 
+.next-step-button {
+  display: block;
+  margin: 20px auto;
+  width: fit-content;
+}
+
 .qualifications {
   display: block;
   justify-content: center;
