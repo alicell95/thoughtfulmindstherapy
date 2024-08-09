@@ -396,6 +396,7 @@ svg {
             width: 30%;
             margin-bottom: 20px;
             box-sizing: border-box;
+            list-syle: none;
         }
 
 .grid {
