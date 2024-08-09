@@ -101,7 +101,10 @@ body {
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
-
+ul{
+  list-style-type: none; 
+  padding-left: 0;
+}
 /* Make images easier to work with */
 img,
 picture,
