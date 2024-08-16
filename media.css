@@ -208,7 +208,7 @@
 
 /*Scallop*/
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .scallop {
     padding-top: 30px; /* Adjust top padding for smaller screens */
     padding-bottom: 60px; /* Adjust bottom padding for smaller screens */
