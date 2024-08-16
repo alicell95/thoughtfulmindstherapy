@@ -228,7 +228,8 @@
   .Aboutme-img {
     position: static; /* Reset position for smaller screens */
     width: 100%; /* Make the image full width for smaller screens */
-    max-width: 250px; /* Limit the maximum width if needed */
+    width: 120px;
+    height: 120px;
     margin: 0 auto; /* Center the image horizontally */
     padding: var(--size-600);
     border-radius: 50%;
@@ -255,6 +256,8 @@
   .grid img {
     max-width: 70%; /* Adjust the width as needed */
     height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+    width: 120px;
+    height: 120px;
   }
 }
 
