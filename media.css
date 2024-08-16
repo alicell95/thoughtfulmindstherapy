@@ -228,7 +228,7 @@
   .Aboutme-img {
     position: static; /* Reset position for smaller screens */
     width: 100%; /* Make the image full width for smaller screens */
-    max-width: 300px; /* Limit the maximum width if needed */
+    max-width: 250px; /* Limit the maximum width if needed */
     margin: 0 auto; /* Center the image horizontally */
     padding: var(--size-600);
     border-radius: 50%;
