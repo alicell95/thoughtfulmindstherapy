@@ -474,7 +474,7 @@ font-weight: var(--fw-semi-bold);
 
 .journey-content.p-left p {
   margin-left: 25px; /* Ensure text does not get too close to the image */
-  max-width: 150px;
+  max-width: 250px;
 }
 
 .journey-content.p-right img {
@@ -483,7 +483,7 @@ font-weight: var(--fw-semi-bold);
 
 .journey-content.p-right p {
   margin-right: 25px; /* Ensure text does not get too close to the image */
-  max-width: 150px;
+  max-width: 250px;
 }
 
 .journey-content p {
