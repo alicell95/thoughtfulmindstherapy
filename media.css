@@ -430,10 +430,9 @@
 //*About Me*// 
 
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .journey-content {
     flex-direction: column;
-    align-items: center;
     text-align: center;
   }
 
@@ -443,45 +442,8 @@
 
   .journey-content p {
     margin: 0; /* Remove left and right margins */
-    max-width: 100%; /* Ensure the text does not exceed container width */
   }
 }
-
-/* Specific styles for image placement when .p-left or .p-right classes are used */
-.journey-content.p-left img {
-  margin: 0 35px 0 0; /* Space between image and text on the right */
-}
-
-.journey-content.p-left p {
-  margin-left: 25px; /* Ensure text does not get too close to the image */
-  max-width: 250px;
-}
-
-.journey-content.p-right img {
-  margin: 0 0 0 35px; /* Space between image and text on the left */
-}
-
-.journey-content.p-right p {
-  margin-right: 25px; /* Ensure text does not get too close to the image */
-  max-width: 250px;
-}
-
-.journey-content p {
-  max-width: 100%;
-  text-align: center;
-  margin: 0;
-}
-
-.journey-content img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-}
-
-.journey-content.row {
-  flex-direction: row;
-}
-
 
 
 /*Footer*/
