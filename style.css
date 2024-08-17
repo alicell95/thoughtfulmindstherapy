@@ -397,14 +397,15 @@ svg {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Center the list items within the container */
-  align-items: flex-start; /* Aligns items at the top */
+  align-items: center; /* Center the items vertically within the rows */
   gap: 30px; /* Adds space between items */
   max-width: 1200px; /* Sets a maximum width for the container */
   width: 100%; /* Ensures container takes full width */
+  margin: 0 auto; /* Center the container horizontally */
 }
 
 .list-item {
-  flex: 1 1 45%; /* Allows items to shrink and grow, occupying 45% of the container width */
+  flex: 1 1 calc(50% - 30px); /* Allows items to take up 50% width minus gap */
   margin-bottom: 30px;
   box-sizing: border-box;
   text-align: center; /* Center-aligns the text within the items */
@@ -414,10 +415,6 @@ svg {
   text-align: center; /* Center-aligns the headings */
 }
 
-
-.ff-heading, .ff-subheading {
-  text-align: center; /* Centers the headings */
-}
 
 
 .grid {
