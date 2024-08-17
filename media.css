@@ -430,7 +430,7 @@
 //*About Me*// 
 
 .aboutme-content {
-  width: calc(100% - 20px); /* Adjusted to create more space on the sides */
+  width: 100%;
   margin: 0 auto; /* Center the content within the page */
   padding: 0 10px; /* Padding on left and right sides */
   box-sizing: border-box;
