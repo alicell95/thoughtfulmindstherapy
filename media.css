@@ -431,9 +431,9 @@
 //*About Me*// 
 
 .aboutme-content {
-  width: calc(100% - 40px); /* Ensures a 30px gap on both sides */
+  width: calc(100% - 60px); /* Ensures a 30px gap on both sides */
   margin: 0 auto; /* Center the content within the page */
-  padding: 0 20px; /* Add 30px padding on left and right */
+  padding: 0 10px; /* Add 30px padding on left and right */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
