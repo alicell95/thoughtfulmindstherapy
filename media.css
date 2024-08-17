@@ -469,20 +469,20 @@ font-weight: var(--fw-semi-bold);
 }
 
 .journey-content.p-left img {
-  margin: 0 20px 0 0; /* 20px space between image and text on the right */
+  margin: 0 35px 0 0; /* 20px space between image and text on the right */
 }
 
 .journey-content.p-left p {
-  margin-left: 20px; /* Ensure text does not get too close to the image */
+  margin-left: 25px; /* Ensure text does not get too close to the image */
   max-width: 100%;
 }
 
 .journey-content.p-right img {
-  margin: 0 0 0 20px; /* 20px space between image and text on the left */
+  margin: 0 0 0 35px; /* 20px space between image and text on the left */
 }
 
 .journey-content.p-right p {
-  margin-right: 20px; /* Ensure text does not get too close to the image */
+  margin-right: 25px; /* Ensure text does not get too close to the image */
   max-width: 100%;
 }
 
