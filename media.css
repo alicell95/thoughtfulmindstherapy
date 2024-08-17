@@ -429,45 +429,7 @@
 
 //*About Me*// 
 
-.aboutme-content {
-  width: 100%;
-  margin: 0 auto; /* Center the content within the page */
-  padding: 0 10px; /* Padding on left and right sides */
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.TitleHeading h1 {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.journey {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 30px;
-  box-sizing: border-box;
-}
-
-.journey h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-weight: var(--fw-semi-bold);
-}
-
-.journey-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-/* Media query for screen widths 768px or less */
 @media (max-width: 900px) {
   .journey-content {
     flex-direction: column;
