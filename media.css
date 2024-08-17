@@ -430,9 +430,9 @@
 //*About Me*// 
 
 .aboutme-content {
-  width: calc(100% - 10px); /* Ensures a 30px gap on both sides */
+  width: calc(100% - 20px); /* Adjusted to create more space on the sides */
   margin: 0 auto; /* Center the content within the page */
-  padding: 0 10px; /* Add 30px padding on left and right */
+  padding: 0 10px; /* Padding on left and right sides */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -469,21 +469,20 @@ font-weight: var(--fw-semi-bold);
 }
 
 .journey-content.p-left img {
- margin: 0 0 0 10px; 
+  margin: 0 20px 0 0; /* 20px space between image and text on the right */
 }
 
 .journey-content.p-left p {
-  margin-right: 5px;
+  margin-left: 20px; /* Ensure text does not get too close to the image */
   max-width: 100%;
-
 }
 
 .journey-content.p-right img {
- margin: 0 10px 0 0;
+  margin: 0 0 0 20px; /* 20px space between image and text on the left */
 }
 
 .journey-content.p-right p {
-  margin-left: 5px;
+  margin-right: 20px; /* Ensure text does not get too close to the image */
   max-width: 100%;
 }
 
