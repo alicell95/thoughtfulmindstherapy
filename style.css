@@ -399,7 +399,6 @@ svg {
   justify-content: center; /* Center the list items within the container */
   align-items: center; /* Center the items vertically within the rows */
   gap: 30px; /* Adds space between items */
-  max-width: 1200px; /* Sets a maximum width for the container */
   width: 100%; /* Ensures container takes full width */
   margin: 0 auto; /* Center the container horizontally */
 }
@@ -414,7 +413,6 @@ svg {
 .ff-heading, .ff-subheading {
   text-align: center; /* Center-aligns the headings */
 }
-
 
 
 .grid {
