@@ -417,7 +417,7 @@
   }
 }
 
-/* Media Queries */
+/* about me  */
 @media (max-width: 760px) {
 
 
@@ -428,6 +428,9 @@
 
   .journey-content img {
     max-width: 100%; /* Full width of the container */
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
   }
 }
 
