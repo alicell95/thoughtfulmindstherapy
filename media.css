@@ -430,6 +430,9 @@
 //*About Me*// 
 @media (max-width: 760px) {
   /* Center text and set width */
+  body{ 
+    background-colour: lightgray;
+  }
   .aboutme-content {
     width: 80%; /* Make content take 80% of the width */
     padding: 0; /* Remove side padding for mobile view */
