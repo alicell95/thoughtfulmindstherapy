@@ -467,7 +467,7 @@
 
   /*Root Ipad */
 
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
   :root {
     --clr-primary-400: #00846e;
 
@@ -533,7 +533,7 @@
 }
 
 /*Font*/
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
   .ff-heading {
     font-size: var(--fs-700);
     font-family: var(--ff-heading);
@@ -576,7 +576,7 @@
 }
 
 /* Navigation */
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
   .primary-navigation {
     display: none;
     position: fixed;
@@ -676,7 +676,7 @@
 
 /*Scallop*/
 
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
   .scallop {
     padding-top: 30px; /* Adjust top padding for smaller screens */
     padding-bottom: 60px; /* Adjust bottom padding for smaller screens */
@@ -707,7 +707,7 @@
 
 /*Qualifications*/
 
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
 
 
   
@@ -759,7 +759,7 @@
 }
 
 /*Button*/
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
   .button {
     display: flex;
     align-items: center;
@@ -777,7 +777,7 @@
 }
 
 /*Carosel*/
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
   .journey {
     display: flex;
     overflow: wrap;
@@ -791,7 +791,7 @@
     font-family: var(--ff-body);
   }
 
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
   .mySlidesContainer q {
     font-size: 1em; /* Adjust font size for better fit */
     padding: 10px; /* Add padding for better readability */
@@ -816,7 +816,7 @@
 
 /*Service*/
 
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
 
   .box {
   width: 250px;
@@ -884,7 +884,7 @@
 
 }
 
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
   .service-scallop h3 {
     width: 100%; /* Ensure it takes the full width */
     text-align: center; /* Center the text */
@@ -897,7 +897,7 @@
 }
 
 /* about me  */
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
 
 
   .aboutme-content {
@@ -917,7 +917,7 @@
 
   
 /*Footer*/
-@media (max-width: 1010px) {
+@media (min-width: 760px) {
   .footerNav ul {
     flex-direction: column;
   }
