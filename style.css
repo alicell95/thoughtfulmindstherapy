@@ -561,6 +561,7 @@ body {
   max-width: 200px; /* Maximum width of 200px */
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 10px; /* Space below images */
+  border-radius: 50%;
 }
 
 .journey-content p {
