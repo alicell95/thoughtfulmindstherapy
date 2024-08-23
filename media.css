@@ -419,12 +419,11 @@
 
 //*About Me*// 
 
-
 @media (max-width: 760px) {
   body {
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: green; 
   }
-}
+
   .aboutme-content {
     width: 80%; /* Make content take 80% of the width */
     padding: 0; /* Remove side padding for mobile view */
@@ -460,6 +459,7 @@
     margin: 0; /* Remove specific left or right margins */
   }
 }
+
 
   
 /*Footer*/
