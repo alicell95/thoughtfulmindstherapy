@@ -241,11 +241,22 @@
 
 @media (max-width: 760px) {
 
+
+  
   .qualifications .ff-heading{
     margin-top: 20px;
     margin-bottom: 15px;
   }
+.qualifications .ff-body {
+    font-weight: 300;
+    font-family: "Noto Sans", sans-serif;
+    color: var(--clr-font-200);
+    font-size: var(--fs-200)!important;
+    text-align: center;
+  }
 
+  
+  }
   .list-container {
   display: flex;
   flex-direction: column;
