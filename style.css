@@ -511,17 +511,14 @@ svg {
   height: 800px;
 }
 
-/* General styles */
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
+/* About Me*/
+
 
 .aboutme-content {
-  width: calc(100% - 60px); /* Ensures a 30px gap on both sides */
-  margin: 0 auto; /* Center the content within the page */
-  padding: 0 30px; /* Add 30px padding on left and right */
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  padding: 0 30px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -542,14 +539,9 @@ body {
   box-sizing: border-box;
 }
 
-.journey h2 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
 .journey-content {
   display: flex;
-  flex-direction: column; /* Stack images above text */
+  flex-direction: column; /* Stack image above title and text */
   align-items: center;
   text-align: center;
   width: 100%;
@@ -557,18 +549,20 @@ body {
 }
 
 .journey-content img {
-  width: 100%; /* Full width of the container */
-  max-width: 200px; /* Maximum width of 200px */
-  height: auto; /* Maintain aspect ratio */
-  margin-bottom: 10px; /* Space below images */
-  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 50%; /* Makes images circular */
+}
+
+.journey-content h2 {
+  margin: 10px 0; /* Space around the title */
 }
 
 .journey-content p {
-  max-width: 100%; /* Full width of container */
-  margin: 0 auto; /* Center text */
-  padding: 0 10px; /* Padding for spacing */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
 }
-
-
 
