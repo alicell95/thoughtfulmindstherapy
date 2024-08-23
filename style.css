@@ -511,8 +511,7 @@ svg {
   height: 800px;
 }
 
-//About Me//
-
+/* General styles */
 body {
   margin: 0;
   padding: 0;
@@ -550,42 +549,24 @@ body {
 
 .journey-content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column; /* Stack images above text */
   align-items: center;
+  text-align: center;
   width: 100%;
   box-sizing: border-box;
 }
 
-.journey-content.p-left img {
-  margin-left: 30px;
-}
-
-.journey-content.p-left p {
-  margin-right: 30px;
-}
-
-.journey-content.p-right img {
-  margin-right: 30px;
-}
-
-.journey-content.p-right p {
-  margin-left: 30px;
+.journey-content img {
+  width: 100%; /* Full width of the container */
+  max-width: 200px; /* Maximum width of 200px */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Space below images */
 }
 
 .journey-content p {
-  max-width: 60%;
-  text-align: center;
-  margin: 0;
-}
-
-.journey-content img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-
-.journey-content.row {
-  flex-direction: row;
+  max-width: 100%; /* Full width of container */
+  margin: 0 auto; /* Center text */
+  padding: 0 10px; /* Padding for spacing */
 }
 
 
