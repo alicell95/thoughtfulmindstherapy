@@ -431,6 +431,7 @@
 
   /* Adjust image and text layout */
   .journey-content {
+    display: flex;
     flex-direction: column; /* Stack images above the text */
     align-items: center; /* Center align items */
     text-align: center; /* Center text alignment */
@@ -441,7 +442,14 @@
     width: 100%; /* Full width of the container */
     max-width: 200px; /* Maximum width of 200px */
     height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Add space below the images */
+    margin-bottom: 10px; /* Add space below the images */
+  }
+
+  /* Adjust title layout */
+  .journey-content h2 {
+    margin: 0; /* Remove default margin */
+    padding: 0 10px; /* Add a little padding on the sides for spacing */
+    color: #000; /* Adjust color if needed */
   }
 
   /* Adjust padding for paragraph within journey-content */
