@@ -551,7 +551,8 @@ svg {
 .journey-content img {
   width: 100%;
   max-width: 200px;
-  height: auto;
+  max-height: 200px;
+  margin-top: 20px; 
   margin-bottom: 10px;
   border-radius: 50%; /* Makes images circular */
 }
