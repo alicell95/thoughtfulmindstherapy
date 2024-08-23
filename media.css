@@ -431,6 +431,8 @@
     max-height: 200px;
     max-width: 200px;
     border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 }
 
