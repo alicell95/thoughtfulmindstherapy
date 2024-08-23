@@ -266,13 +266,13 @@
   .grid {
     display: flex;
     align-items: center; /* Center the images in the column */
-    width: 100%; /* Ensure the grid takes full width */
+    width: 80%; /* Ensure the grid takes full width */
     margin: 0; /* Remove any margin that could cause overflow */
     padding: 0; /* Remove any padding that could cause overflow */
   }
 
   .grid img {
-    max-width: 70%; /* Adjust the width as needed */
+    max-width: 80%; /* Adjust the width as needed */
     height: auto; /* Let the height adjust automatically to maintain aspect ratio */
     width: 120px;
     height: 120px;
