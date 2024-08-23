@@ -1,4 +1,4 @@
-/*Root*/
+/*Root Mobile Phones */
 
 @media (max-width: 760px) {
   :root {
@@ -464,4 +464,472 @@
     margin: 4px;
   }
 }
+
+  /*Root Ipad */
+
+@media (max-width: 1010px) {
+  :root {
+    --clr-primary-400: #00846e;
+
+    --clr-accent-400: #00eab3;
+
+    --clr-font-500: #0b0b7c;
+    --clr-font-400: #072cf1;
+    --clr-font-300: #ffcee4;
+    --clr-font-200: #00346b;
+
+    --clr-background-400: #f2dffd;
+
+    --fw-regular: 600;
+    --fw-semi-bold: 850;
+    --fw-bold: 1100;
+
+    --ff-heading: "Grandstander", cursive;
+    --ff-subheading: "Noto Sans", sans-serif;
+    --ff-body: "Noto Sans", sans-serif;
+
+    --fs-300: 0.45rem;
+    --fs-300: 0.7rem;
+    --fs-400: 1rem;
+    --fs-500: 1.5rem;
+    --fs-600: 2.2rem;
+    --fs-700: 2.8rem;
+    --fs-800: 3.5rem;
+    --fs-900: 5rem;
+
+    --size-50: 0.1rem;
+    --size-100: 0.25rem;
+    --size-200: 0.5rem;
+    --size-300: 0.75rem;
+    --size-400: 1rem;
+    --size-500: 1.5rem;
+    --size-600: 2rem;
+    --size-700: 3rem;
+    --size-800: 4rem;
+    --size-900: 5rem;
+
+    --fs-body: var(--fs-600);
+    --fs-primary-heading: var(--fs-900);
+    --fs-secondary-heading: var(--fs-700);
+    --fs-nav: var(--fs-600);
+    --fs-button: var(--fs-400);
+  }
+}
+
+/*Reduce Motion*/
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*Font*/
+@media (max-width: 1010px) {
+  .ff-heading {
+    font-size: var(--fs-700);
+    font-family: var(--ff-heading);
+    color: var(--clr-font-400);
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .ff-subheading {
+    font-size: var(--fs-500);
+    font-family: var(--ff-subheading);
+    color: var(--clr-font-400);
+    font-weight: 600;
+    text-align: center;
+    font-style: bold;
+  }
+  .ff-body {
+    font-weight: 300;
+    font-family: "Noto Sans", sans-serif;
+    color: var(--clr-font-200);
+    font-size: var(--fs-300);
+    text-align: center;
+  }
+
+  .ff-secondary-body {
+    font-weight: 300;
+    font-family: "Noto Sans", sans-serif;
+    color: var(--clr-primary-400);
+    font-size: var(--fs-400);
+    text-align: center;
+  }
+  .service p {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: var(--ff-body);
+    color: var(--clr-font-200);
+    width: 70%; /* Added missing semicolon */
+  }
+}
+
+/* Navigation */
+@media (max-width: 1010px) {
+  .primary-navigation {
+    display: none;
+    position: fixed;
+    padding: var(--size-500);
+    inset: 0;
+    background: #00eab3; /* New background color */
+    z-index: 1000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .primary-navigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-400);
+  }
+
+  .primary-navigation[data-visible="true"] {
+    display: flex;
+  }
+
+  .nav-wrapper img {
+    width: 20%;
+    padding-left: var(--size-400);
+  }
+
+  .nav-list {
+    display: grid;
+    gap: var(--size-400);
+    text-align: center;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-550);
+  }
+
+  .nav-list li {
+    margin-bottom: 25px; /* Add 15px of space between each link */
+  }
+
+  .nav-list a {
+    color: var(--clr-font-200); /* Ensure links inherit the current color */
+    text-decoration: none; /* Remove underline for a cleaner look */
+  }
+
+  .nav-list a:active,
+  .nav-list a:focus {
+    color: #ffffff; /* Change color to white when link is clicked or focused */
+  }
+
+  .service-drop-down {
+    display: none; /* Keep the dropdown hidden initially */
+    position: static; /* Adjust position for better layout */
+    background: none; /* Remove background for unified look */
+    border-radius: 0; /* Remove border radius for unified look */
+    padding: 0; /* Remove padding for unified look */
+    list-style: none; /* Remove default list styling */
+  }
+
+  .services-li:hover .service-drop-down,
+  .services-li:focus-within .service-drop-down {
+    display: block; /* Show dropdown when parent is hovered or focused */
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    top: var(--size-500);
+    right: var(--size-50);
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    padding-top: 0.3em;
+    padding-right: 0.9em;
+    z-index: 1100; /* Ensure toggle button is above navigation */
+  }
+
+  .icon-open {
+    display: block;
+  }
+
+  .icon-close {
+    display: none;
+  }
+
+  .mobile-nav-toggle[aria-expanded="true"] .icon-open {
+    display: none;
+  }
+
+  .mobile-nav-toggle[aria-expanded="true"] .icon-close {
+    display: block;
+  }
+
+  .mobile-nav-toggle[aria-expanded="false"] .icon-close {
+    display: none;
+  }
+}
+
+/*Scallop*/
+
+@media (max-width: 1010px) {
+  .scallop {
+    padding-top: 30px; /* Adjust top padding for smaller screens */
+    padding-bottom: 60px; /* Adjust bottom padding for smaller screens */
+    width: 100%; /* Ensure it takes full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .scallop p {
+    float: none; /* Reset float for smaller screens */
+    width: 100%; /* Make the paragraph full width for smaller screens */
+    padding: 20px; /* Adjust padding for smaller screens */
+    text-align: center; /* Center text */
+  }
+
+  .Aboutme-img {
+    position: static; /* Reset position for smaller screens */
+    width: 100%; /* Make the image full width for smaller screens */
+    width: 250px;
+    height: 250px;
+    margin: 0 auto; /* Center the image horizontally */
+    padding: var(--size-600);
+    border-radius: 50%;
+  }
+}
+
+
+/*Qualifications*/
+
+@media (max-width: 1010px) {
+
+
+  
+  .qualifications .ff-heading{
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+.qualifications .ff-body {
+    font-weight: 300;
+    font-family: "Noto Sans", sans-serif;
+    color: var(--clr-font-200);
+    font-size: var(--fs-200)!important;
+    text-align: center;
+  }
+
+  
+  }
+  .list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the list items within the container */
+  align-items: center; /* Center the items vertically within the rows */
+  gap: 30px; /* Adds space between items */
+  width: 80%; /* Ensures container takes full width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.list-item {
+  flex: 1 1 calc(50% - 30px); /* Allows items to take up 50% width minus gap */
+  margin-bottom: 30px;
+  line-height: 2; 
+  box-sizing: border-box;
+  text-align: center; /* Center-aligns the text within the items */
+}
+  .grid {
+    display: flex;
+    align-items: center; /* Center the images in the column */
+    width: 80%; /* Ensure the grid takes full width */
+    margin: 0; /* Remove any margin that could cause overflow */
+    padding: 0; /* Remove any padding that could cause overflow */
+  }
+
+  .grid img {
+    max-width: 80%; /* Adjust the width as needed */
+    height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/*Button*/
+@media (max-width: 1010px) {
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    border-radius: 100vmax;
+    padding: 1.25em 3em;
+    width: 35%;
+    text-decoration: none;
+    font-size: var(--fs-400);
+  }
+}
+
+/*Carosel*/
+@media (max-width: 1010px) {
+  .journey {
+    display: flex;
+    overflow: wrap;
+  }
+  .journey img {
+    width: 400px;
+    height: 200px;
+  }
+
+  .journey h2 {
+    font-family: var(--ff-body);
+  }
+
+@media (max-width: 1010px) {
+  .mySlidesContainer q {
+    font-size: 1em; /* Adjust font size for better fit */
+    padding: 10px; /* Add padding for better readability */
+    text-align: center; /* Center text if needed */
+    overflow-y: auto; /* Add vertical scroll bar */
+    max-height: 200px; /* Set a maximum height to trigger scrolling */
+    width:100%;
+  }
+  .slideshow-container {
+    position: relative;
+    width: 80rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .mySlides{
+    width: 100%
+  }  
+  .mySlidesContainer{
+    width: 100%
+}
+}
+
+/*Service*/
+
+@media (max-width: 1010px) {
+
+  .box {
+  width: 250px;
+  height: 170px;
+  margin: 0 40px 15px 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e1ff;
+  text-decoration: none;
+}
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ensure full width */
+    text-align: center; /* Ensure text is centered */
+  }
+  .services h3{
+    text-align: center;
+    color: var(--clr-font-200);
+    font-family: var(--ff-body);
+    font-size: var(--fs-550);
+    font-weight: var(--fw-semi-bold);
+  }
+  
+  .services .step-box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center items horizontally */
+    width: 100%; /* Ensure full width */
+  }
+  .services p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%; /* Ensure full width */
+    text-align: center;
+    font-family: var(--ff-body);
+    color: var(--clr-font-200);
+  }
+  .step-box h2 {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Ensure no padding */
+  justify-content: center;
+}
+
+.step-box h4 {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Ensure no padding */
+  margin-top: 10px; /* Adjust as needed to control gap */
+  font-family: var(--ff-subheading);
+  color: var(--clr-font-200);
+  font-weight: var(--fw-semi-bold);
+}
+
+.step-box p {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Ensure no padding */
+  margin-top: 10px; /* Adjust as needed to control gap */
+  font-family: var(--ff-body);
+}
+
+}
+
+@media (max-width: 1010px) {
+  .service-scallop h3 {
+    width: 100%; /* Ensure it takes the full width */
+    text-align: center; /* Center the text */
+    padding-top: 20px;
+    font-weight: var(--fw-semi-bold);
+    margin: 0 auto; /* Center the element */
+    display: block; /* Ensure it's displayed */
+    font-family: var(--ff-subheading);
+  }
+}
+
+/* about me  */
+@media (max-width: 1010px) {
+
+
+  .aboutme-content {
+    width: 80%; /* Make content take 80% of the width */
+    padding: 0; /* Remove side padding for mobile view */
+  }
+
+  .journey-content img {
+    max-width: 100%; /* Full width of the container */
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+  
+/*Footer*/
+@media (max-width: 1010px) {
+  .footerNav ul {
+    flex-direction: column;
+  }
+  .footerNav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+  .socialIcons a {
+    padding: 8px;
+    margin: 4px;
+  }
+}
+
 
