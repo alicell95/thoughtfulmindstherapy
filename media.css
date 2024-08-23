@@ -429,7 +429,6 @@
     padding: 0; /* Remove side padding for mobile view */
   }
 
-  /* Adjust image and text layout */
   .journey-content {
     display: flex;
     flex-direction: column; /* Stack images above the text */
@@ -437,7 +436,6 @@
     text-align: center; /* Center text alignment */
   }
 
-  /* Set image dimensions */
   .journey-content img {
     width: 100%; /* Full width of the container */
     max-width: 200px; /* Maximum width of 200px */
@@ -445,26 +443,24 @@
     margin-bottom: 10px; /* Add space below the images */
   }
 
-  /* Adjust title layout */
   .journey-content h2 {
     margin: 0; /* Remove default margin */
     padding: 0 10px; /* Add a little padding on the sides for spacing */
     color: #000; /* Adjust color if needed */
   }
 
-  /* Adjust padding for paragraph within journey-content */
   .journey-content p {
     max-width: 100%; /* Allow text to take full width of container */
     margin: 0 auto; /* Center the text */
     padding: 0 10px; /* Add a little padding on the sides for spacing */
   }
 
-  /* Remove specific padding styles for left and right alignment */
-  .journey-content.p-left img,
-  .journey-content.p-left p,
-  .journey-content.p-right img,
-  .journey-content.p-right p {
-    margin: 0; /* Remove specific left or right margins */
+  .journey-content.p-left {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .journey-content.p-right {
+    flex-direction: column; /* Stack elements vertically */
   }
 }
 
