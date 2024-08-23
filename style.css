@@ -548,14 +548,14 @@ svg {
   box-sizing: border-box;
 }
 
-.journey-content img {
-  width: 100%;
-  max-width: 200px;
-  max-height: 200px;
-  margin-top: 20px; 
-  margin-bottom: 10px;
-  border-radius: 50%; /* Makes images circular */
-}
+ .journey-content img {
+    max-width: 100%; /* Full width of the container */
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
 
 .journey-content h2 {
   margin: 10px 0; /* Space around the title */
