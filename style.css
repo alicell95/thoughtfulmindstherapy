@@ -349,7 +349,7 @@ svg {
   padding: 1.25em 1.75em;
   width: 15%;
   font-weight: var(--fw-bold);
-  font-size: 200px;
+  font-size: var(--fs-button);
   line-height: 1;
   font-family: "grandstander";
   color: var(--clr-font-200);
@@ -369,7 +369,7 @@ svg {
 .next-step-button {
   display: block;
   margin: 20px auto;
-  font-size: 200px;
+  font-size: var(--fs-button);
   width: fit-content;
   text-decoration: none;
 }
