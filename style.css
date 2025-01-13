@@ -369,6 +369,7 @@ svg {
 .next-step-button {
   display: block;
   margin: 20px auto;
+  font-size: 200px;
   width: fit-content;
   text-decoration: none;
 }
