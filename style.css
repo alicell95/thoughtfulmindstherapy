@@ -363,6 +363,7 @@ svg {
 .button a {
   text-decoration: none;
   color: var(--clr-font-200);
+  font-size: var(--fs-700)
 }
 
 .next-step-button {
