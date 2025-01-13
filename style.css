@@ -346,10 +346,10 @@ svg {
   margin-bottom: 30px;
   border: 0;
   border-radius: 100vmax;
-  padding: 1.25em 2em;
-  width: 17%;
+  padding: 1.25em 1.75em;
+  width: 15%;
   font-weight: var(--fw-bold);
-  font-size: var(--fs-button);
+  font-size: var(--size-700);
   line-height: 1;
   font-family: "grandstander";
   color: var(--clr-font-200);
@@ -363,7 +363,7 @@ svg {
 .button a {
   text-decoration: none;
   color: var(--clr-font-200);
-  font-size: var(--fs-700)
+  font-size: var(--size-700)
 }
 
 .next-step-button {
