@@ -369,6 +369,7 @@ svg {
   display: block;
   margin: 20px auto;
   width: fit-content;
+  text-decoration: none;
 }
 
 .qualifications {
