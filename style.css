@@ -342,22 +342,20 @@ svg {
   justify-content: center;
   text-align: center;
   margin: auto;
-  margin-top: 25px;
-  margin-bottom: 30px;
-  border: 0;
-  border-radius: 100vmax;
-  padding: 1.25em 1.75em;
-  width: 15%;
-  font-weight: var(--fw-bold);
-  font-size: var(--fs-button);
-  line-height: 1;
-  font-family: "grandstander";
+  background: var(--clr-accent-400);
+  border-radius: 60px;
+  border: var(--clr-accent-400);
   color: var(--clr-font-200);
-  background-color: var(--clr-accent-400);
-  border-width: 0;
-  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
   cursor: pointer;
-  text-decoration: none;
+  font-family: var(--ff-body);
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; 
 }
 
 .button a {
