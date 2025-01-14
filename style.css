@@ -354,7 +354,7 @@ svg {
   border: var(--clr-accent-400);
   color: var(--clr-font-200);
   cursor: pointer;
-  font-family: var(--ff-button);
+  font: var(--ff-button);
   outline: none;
   padding: 20px 35px;
   text-transform: uppercase;
