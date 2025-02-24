@@ -137,10 +137,10 @@ svg {
 }
 
 .ff-body {
-  font-weight: 600;
+  font-weight: 400;
   font-family: "Noto Sans", sans-serif;
   color: var(--clr-font-200);
-  font-size: var(--fs-600);
+  font-size: var(--fs-400);
   text-align: center;
 }
 .ff-button {
